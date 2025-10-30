@@ -8,8 +8,8 @@ set -Eeo pipefail
 # --- 1. Variables de Configuración ---
 
 # Parámetros de Conexión a MongoDB (ajustar con variables de entorno)
-DB_NAME="aic"
-DB_HOST="localhost:27017" 
+DB_NAME="db_name"
+DB_HOST="your:host" 
 DB_USER="backup_user"
 DB_PASS="TuContraseñaSegura" 
 
